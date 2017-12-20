@@ -96,5 +96,14 @@ run.config:
     eaccelerator_shm_size: '0'
     eaccelerator_filter: ''
 
+web.main:
+  start: php-server
 
+  # add writable dirs to your web component
+  writable_dirs:
+    - var
+
+  # the path to a logfile you want streamed to the nanobox dashboard
+  log_watch:
+    symfony[error]: /app/storage/logs/symfony.log
     
