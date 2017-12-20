@@ -3,7 +3,7 @@ run.config:
   engine.config:
     # Web Server Settings
     webserver: 'apache'
-    document_root: '/'
+   
 
     # PHP Settings
     runtime: 'php-7.0'
@@ -46,7 +46,7 @@ run.config:
     iconv_internal_encoding: 'UTF-8'
 
     # Apache Settings
-    apache_document_root: '/'
+    
     apache_index_list:
       - index.php
       - index.html
@@ -67,7 +67,7 @@ run.config:
   
 
     # Built-In PHP Web Server Settings
-    builtin_document_root: '/'
+   
 
     # PHP-FPM Settings
     php_fpm_events_mechanism: 'epoll'
